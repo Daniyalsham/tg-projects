@@ -1,0 +1,10 @@
+{
+  "/posts": {
+    "target": "http://tg-v2-goosestore-admin-lb-az-b-951259375.ap-southeast-1.elb.amazonaws.com/",
+    "secure": true,
+    "pathRewrite": {
+    "^/posts": ""
+  },
+    "changeOrigin": true
+  }
+}
